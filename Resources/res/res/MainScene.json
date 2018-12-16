@@ -1,0 +1,76 @@
+{
+  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "Version": "3.10.0.0",
+  "Name": "MainScene",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Children": [
+          {
+            "CharWidth": 14,
+            "CharHeight": 18,
+            "LabelText": "./0123456789",
+            "StartChar": ".",
+            "LabelAtlasFileImage_CNB": {
+              "Type": "Default",
+              "Path": "Default/TextAtlas.png",
+              "Plist": ""
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 153.0,
+              "Y": 430.0
+            },
+            "Scale": {
+              "ScaleX": 1.5476,
+              "ScaleY": 2.6667
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1594,
+              "Y": 0.6719
+            },
+            "PreSize": {
+              "X": 0.175,
+              "Y": 0.0281
+            },
+            "LeftMargin": 69.0,
+            "RightMargin": 723.0,
+            "TopMargin": 201.0,
+            "BottomMargin": 421.0,
+            "Tag": 3,
+            "ActionTag": -1053620225,
+            "Size": {
+              "X": 168.0,
+              "Y": 18.0
+            },
+            "Name": "Score",
+            "ctype": "TextAtlasObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Scene",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Default/TextAtlas.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Scene"
+}

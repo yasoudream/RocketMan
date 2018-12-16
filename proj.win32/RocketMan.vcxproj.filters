@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\Entity">
+      <UniqueIdentifier>{39a3f77e-72e9-40ef-9a94-3ba0d77dbe0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\Entity\Player">
+      <UniqueIdentifier>{3475b374-5b10-4fc8-b0c9-5323bb2edf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\Scene">
+      <UniqueIdentifier>{0a586a92-e7c9-4fac-849a-c784585ea470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\Entity\Pillar">
+      <UniqueIdentifier>{936d66ee-67b4-4356-9d04-cabc0b145016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes\Manager">
+      <UniqueIdentifier>{4825e4cc-cc00-44b2-8ad5-d39e599fc208}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TollgateScene.cpp">
+      <Filter>classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Player.cpp">
+      <Filter>classes\Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Entity.cpp">
+      <Filter>classes\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Pillar.cpp">
+      <Filter>classes\Entity\Pillar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PillarManager.cpp">
+      <Filter>classes\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BeginScene.cpp">
+      <Filter>classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\OverScene.cpp">
+      <Filter>classes\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Entity.h">
+      <Filter>classes\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.h">
+      <Filter>classes\Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TollgateScene.h">
+      <Filter>classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Pillar.h">
+      <Filter>classes\Entity\Pillar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PillarManager.h">
+      <Filter>classes\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BeginScene.h">
+      <Filter>classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\OverScene.h">
+      <Filter>classes\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\background 2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\background.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\end.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\pillar.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\player.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\title.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\button1.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\button2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\button3.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\button4.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\front.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\button7.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\button8.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\player2.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\player3.png">
+      <Filter>resource</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\Resources\BGM.mp3">
+      <Filter>resource</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\Marker Felt.ttf">
+      <Filter>resource</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
